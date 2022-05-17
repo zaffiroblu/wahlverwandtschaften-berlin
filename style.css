@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.header {
+  margin: 1% 0;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 15px;
+}
+
+.header-logo {
+  max-width: 35%;
+  height: auto;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.right-links {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.button {
+  border: #f19124;
+  font-family: Arial;
+  color: #f19124;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 25px 10px 20px;
+  text-decoration: none;
+}
+
+.button:hover {
+  color: #fcc22d;
+  text-decoration: none;
+}
+
+.button:active {
+  position: relative;
+  top: 1px;
+}
+
+.section-1 {
+  background: url("images_VLO/adam-vradenburg-TK5I5L5JGxY-unsplash.jpg")
+    no-repeat fixed 100%;
+  background-size: 100% auto;
+  flex-basis: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.section-1-inner {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30%;
+  padding-bottom: 30%;
+  padding-left: 15px;
+}
+
+.href-sec-1 {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 18px;
+  background: #f19124;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  align-self: flex-start;
+  text-align: center;
+  margin: 5px;
+}
+
+.href-sec-1:hover {
+  background: #fcc22d;
+  color: black;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 35px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: 5px;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 5px;
+  font-weight: lighter;
+}
+
+h3 {
+  color: orange;
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+h4 {
+  font-weight: 50;
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 1.8;
+}
+
+.section-2-inner,
+.section-4-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 125px;
+  margin-bottom: 125px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+/* I am commenting this out, since it messes up my parallax below, for whatever reason!
+  @media screen and (width: 1000px) and (width: 700px) {
+    div {
+        padding: 200px; 
+    }
+
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+    div {
+        padding: 10px; 
+        } 
+} */
+
+.parallax {
+  /* The image used */
+  background-image: url("images_VLO/ian-schneider-PAykYb-8Er8-unsplash.jpg");
+
+  /* Set a specific height */
+  min-height: 600px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Turn off parallax for mobile devices
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }*/
+}
+
+.flexbox-section-3 {
+  display: flex;
+}
+
+.section-4 {
+  flex-direction: column;
+}
+
+.section-5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-5-inner {
+  display: flex;
+  flex-direction: row;
+  background-color: orange;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.section-5-inner .img {
+  width: 100%;
+  height: auto;
+}
+
+.subgroup5 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.section-6 {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-6-inner {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.section-7 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #f19124;
+  padding: 10px;
+}
+
+.section-7-inner {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  align-items: center;
+  padding: 25px;
+  margin: 20px;
+  border-radius: 25px;
+}
+
+.subgroup7 {
+  margin: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
