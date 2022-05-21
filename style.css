@@ -99,6 +99,19 @@
   align-self: flex-start;
 }
 
+.href-new {
+  border-radius: 15px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 18px;
+  background: #f19124;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 25px;
+  align-self: center;
+}
+
 .href-sec-1:hover {
   background: #fcc22d;
   color: black;
